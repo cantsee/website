@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<head>
+<img src="style/banner.jpg" alt="banner" style="width:304px;height:228px;">
+</head>
 <body>
 
 <style>
