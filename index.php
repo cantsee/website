@@ -5,7 +5,6 @@
 <style>
 body {
     background-image: url("style/background.jpg");
-    background-repeat: repeat-y;
 }
 </style>
 
