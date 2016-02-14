@@ -11,9 +11,14 @@ body {
 }
 </style>
 
-<h1 style="color:blue;">This is a Blue Heading</h1>
+<h1 style="color:red;">Items</h1>
+
+<p>Custom missionary count down clock, custom make to desire<p>
 
 <img src="items/missionclock.jpg" alt="Mission Clock" style="width:304px;height:228px;">
+
+<p> Price $100 as shown customization price will vary</p>
+<button>order</button>
 
 </body>
 </html>
