@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+<php
+$servername = "localhost";
+$username = "root";
+$password = "cmip23wl";
+$conn = new mysqli($servername, $username, $password);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+echo "Connected successfully";
+?>
 <html>
 <head>
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
