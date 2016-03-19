@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<img src="style/banner.png" alt="banner" style="width:1004px;height:228px;">
+<img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
 </head>
 <body>
 
