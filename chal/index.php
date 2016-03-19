@@ -19,6 +19,7 @@ body {
 </select>
 	Enter Points:
 	<input type="number" name="points">
+	<input type="submit">
 </form>
 
 </body>
