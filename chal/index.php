@@ -10,7 +10,11 @@ body {
     background-image: url("style/background.jpg");
 }
 </style>
-
+<select name="Users">
+  <option value="Danny_Lisa">Danny/Lisa</option>
+  <option value="Mike_Jeni">Mike/Jeni</option>
+  <option value="Hanah_Jon">Hanah/Jon</option>
+</select>
 
 </body>
 </html>
