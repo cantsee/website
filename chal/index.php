@@ -10,11 +10,16 @@ body {
     background-image: url("style/background.jpg");
 }
 </style>
+<form>
+	Select Name: <br>
 <select name="Users">
   <option value="Danny_Lisa">Danny/Lisa</option>
   <option value="Mike_Jeni">Mike/Jeni</option>
   <option value="Hanah_Jon">Hanah/Jon</option>
 </select>
+	Enter Points:
+	<input type="number" name="points">
+</form>
 
 </body>
 </html>
