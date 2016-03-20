@@ -30,7 +30,7 @@ body {
 <table style="width:100%">
   <tr>
     <td>Danny/Lisa</td>   
-    <td><?php $points['danny_lisa']?></td>
+    <td><?php echo $points['danny_lisa']?></td>
   </tr>
   <tr>
     <td>Hanah/Jon</td>   
