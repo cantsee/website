@@ -57,7 +57,7 @@ p1 {
 
 <table>
   <tr>
-    <td>Danny/Lisa</td>   
+    <td><font size="20">Danny/Lisa</font></td>   
     <td><?php echo $points['danny_lisa']?></td>
   </tr>
   <tr>
