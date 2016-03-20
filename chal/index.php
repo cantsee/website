@@ -31,7 +31,7 @@ $points = convertToArray($file);
 ?>
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
 </head>
-<body style="background-color:navy;">
+<body style="background-color:navy color: white;">
 <style>
 table, th, td {
     border: 1px solid white;
