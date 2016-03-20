@@ -37,12 +37,12 @@ table, th, td {
     border: 1px solid white;
     color: white;
 }
-h1 {
+p1 {
     color: white;
 }
 </style>
 <form action="index.php" method="post">
-	<h1>Select Name: <br> </h1>
+	<p1>Select Name: <br> </p1>
 <select name="Users">
   <option value="danny_lisa">Danny/Lisa</option>
   <option value="michael_jeni">Mike/Jeni</option>
