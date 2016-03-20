@@ -9,11 +9,13 @@ $points = convertToArray($file);
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
 </head>
 <body>
-
 <style>
 table, th, td {
     border: 1px solid black;
 }
+</style>
+
+<style>
 body {
     background-image: url("style/background.jpg");
 }
@@ -37,7 +39,7 @@ body {
   </tr>
   <tr>
     <td>Hanah/Jon</td>   
-    <td><?php echo $points['hanah_jon']?</td>
+    <td><?php echo $points['hanah_jon']?></td>
   </tr>
   <tr>
     <td>Mike/Jeni</td>   
