@@ -21,7 +21,7 @@ switch ($name) {
 		break;
 	}
 
-file_put_contents("points.txt", $points)
+file_put_contents("points.txt", $points);
 
 $file = file_get_contents("points.txt");
 $points = convertToArray($file);
