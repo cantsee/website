@@ -27,7 +27,7 @@ body {
 	<input type="submit">
 </form>
 
-<table border="1">
+<table border="1" style="width:100%">
   <tr>
     <td>Danny/Lisa</td>   
     <td><?php echo $points['danny_lisa']?></td>
