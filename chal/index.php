@@ -1,4 +1,4 @@
-<php
+<?php
 $servername = "localhost";
 $username = "root";
 $password = "cmip23wl";
@@ -14,7 +14,6 @@ echo "Connected successfully";
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
 </head>
 <body>
-<?php phpinfo(); ?>
 <style>
 body {
     background-image: url("style/background.jpg");
