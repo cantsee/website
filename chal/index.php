@@ -2,8 +2,8 @@
 <head>
 <?php
 include("functons.php");
-//$file = ile_get_contents("points.txt");
-//$points = convertToArray($file);
+$file = file_get_contents("points.txt");
+$points = convertToArray($file);
 ?>
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
 </head>
