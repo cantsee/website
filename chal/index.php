@@ -46,7 +46,7 @@ td {
     font-size: 200%;
 }
 </style>
-<img src="style/bodybuilder.jpg" alt="bodybuilder" align="right" style="width:700px;height:700;">
+<img src="style/bodybuilder.jpg" alt="bodybuilder" align="right" style="width:300px;height:300;">
 <form action="index.php" method="post">
 	<p1>Select Name: <br> </p1>
 <select name="Users">
