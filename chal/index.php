@@ -4,11 +4,8 @@
 $servername = "localhost";
 $username = "root";
 $password = "cmip23wl";
-try{
-$conn = new mysqli($servername, $username, $password);
-}catch(Exception $e){
-	echo $e;
-}
+$conn = new mysql_connect($servername, $username, $password);
+var_dump($conn);
 
 ?>
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
