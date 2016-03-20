@@ -3,10 +3,10 @@
 <?php
 include("functons.php");
 $name = $_POST['Users'];
-var_dump($name);
+$newPoints = $_post['points'];
+var_dump($newPoints);
 $file = file_get_contents("points.txt");
 $points = convertToArray($file);
-$points['michael_jeni'] += 1;
 
 ?>
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
