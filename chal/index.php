@@ -53,7 +53,7 @@ td {
   <option value="michael_jeni">Mike/Jeni</option>
   <option value="hanah_jon">Hanah/Jon</option>
 </select>
-	<p1>Enter Points: <p1>
+	<p1>Enter Points: <br> <p1>
 	<input type="number" name="points">
 	<input type="submit">
 </form>
@@ -72,6 +72,7 @@ td {
     <td><?php echo $points['michael_jeni']?></td>
   </tr>
 </table>
+<img src="challenge.docx" alt="challenge" style="width:1004px;height:228px;">
 
 </body>
 </html>
