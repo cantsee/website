@@ -2,6 +2,8 @@
 <head>
 <?php
 include("functons.php");
+$name = $_POST['Users'];
+var_dump($name);
 $file = file_get_contents("points.txt");
 $points = convertToArray($file);
 $points['michael_jeni'] += 1;
@@ -21,7 +23,7 @@ body {
     background-image: url("style/background.jpg");
 }
 </style>
-<form>
+<form action="index.php" method="post">
 	Select Name: <br>
 <select name="Users">
   <option value="danny_lisa">Danny/Lisa</option>
