@@ -29,15 +29,15 @@ body {
 <table style="width:100%">
   <tr>
     <td>Danny/Lisa</td>   
-    <td><?php $points->danny_lisa</td>
+    <td><?php $points->danny_lisa?></td>
   </tr>
   <tr>
     <td>Danny/Lisa</td>   
-    <td><?php $points->hanah_jon</td>
+    <td><?php $points->hanah_jon?></td>
   </tr>
   <tr>
     <td>Danny/Lisa</td>   
-    <td><?php $points->mike_jeni</td>
+    <td><?php $points->mike_jeni?></td>
   </tr>
 </table>
 
