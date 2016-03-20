@@ -4,7 +4,25 @@
 include("functons.php");
 $name = $_POST['Users'];
 $newPoints = $_POST['points'];
-var_dump($newPoints);
+$file = file_get_contents("points.txt");
+$points = convertToArray($file);
+
+switch ($name) {
+	case 'danny_lisa':
+		$points['danny_lisa'] += $newPoints;
+		break;
+	case 'hanah_jon':
+		$points['hanah_jon'] += $newPoints;
+		break;
+	case 'michael_jeni':
+		$points['michael_jeni'] += $newPoints;
+	default:
+		$x = "no new points";
+		break;
+	}
+
+file_put_contents("points.txt", $points)
+
 $file = file_get_contents("points.txt");
 $points = convertToArray($file);
 
