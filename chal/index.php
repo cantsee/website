@@ -10,19 +10,22 @@ $points = convertToArray($file);
 switch ($name) {
 	case 'danny_lisa':
 		$points['danny_lisa'] += $newPoints;
-		var_dump($points);
+		$newPointsString = convertToString($points);
+		file_put_contents("points.txt", $newPointsString);
 		break;
 	case 'hanah_jon':
 		$points['hanah_jon'] += $newPoints;
+		$newPointsString = convertToString($points);
+		file_put_contents("points.txt", $newPointsString);
 		break;
 	case 'michael_jeni':
 		$points['michael_jeni'] += $newPoints;
+		$newPointsString = convertToString($points);
+		file_put_contents("points.txt", $newPointsString);
 	default:
 		$x = "no new points";
 		break;
 	}
-$newPointsString = convertToString($points);
-file_put_contents("points.txt", $newPointsString);
 
 $file = file_get_contents("points.txt");
 $points = convertToArray($file);
