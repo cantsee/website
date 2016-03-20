@@ -4,13 +4,12 @@
 $servername = "localhost";
 $username = "root";
 $password = "cmip23wl";
+try{
 $conn = new mysqli($servername, $username, $password);
-
-// Check connection
-if (mysqli_connect_error()) {
-    die("Database connection failed: " . mysqli_connect_error());
+}catch(Exception $e){
+	echo $e;
 }
-echo "Connected successfully";
+
 ?>
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
 </head>
