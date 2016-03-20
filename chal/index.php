@@ -35,6 +35,7 @@ $points = convertToArray($file);
 <style>
 table, th, td {
     border: 1px solid white;
+    color: white;
 }
 </style>
 <form action="index.php" method="post">
