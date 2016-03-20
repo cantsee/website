@@ -43,7 +43,7 @@ p1 {
     color: white;
 }
 td {
-    font-size:: 25;
+    font-size: 200%;
 }
 </style>
 <form action="index.php" method="post">
@@ -60,7 +60,7 @@ td {
 
 <table>
   <tr>
-    <t>Danny/Lisa</td>   
+    <td>Danny/Lisa</td>   
     <td><?php echo $points['danny_lisa']?></td>
   </tr>
   <tr>
