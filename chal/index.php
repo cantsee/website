@@ -1,7 +1,7 @@
 <html>
 <head>
 <?php
-//include("functons.php");
+include("functons.php");
 //$file = ile_get_contents("points.txt");
 //$points = convertToArray($file);
 ?>
