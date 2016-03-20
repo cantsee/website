@@ -18,27 +18,27 @@ body {
 <form>
 	Select Name: <br>
 <select name="Users">
-  <option value="Danny_Lisa">Danny/Lisa</option>
-  <option value="Mike_Jeni">Mike/Jeni</option>
-  <option value="Hanah_Jon">Hanah/Jon</option>
+  <option value="danny_lisa">Danny/Lisa</option>
+  <option value="mike_jeni">Mike/Jeni</option>
+  <option value="hanah_jon">Hanah/Jon</option>
 </select>
 	Enter Points:
 	<input type="number" name="points">
 	<input type="submit">
 </form>
 
-<table>
+<table border="1">
   <tr>
     <td>Danny/Lisa</td>   
     <td><?php echo $points['danny_lisa']?></td>
   </tr>
   <tr>
     <td>Hanah/Jon</td>   
-    <td><?php echo $points->hanah_jon?></td>
+    <td><?php echo $points['hanah_jon']?</td>
   </tr>
   <tr>
     <td>Mike/Jeni</td>   
-    <td><?php echo $points->mike_jeni?></td>
+    <td><?php echo $points['mike_jeni']?></td>
   </tr>
 </table>
 
