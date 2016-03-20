@@ -58,7 +58,7 @@ td {
 	<input type="submit">
 </form>
 
-<br>
+<br><br>
 <table>
   <tr>
     <td>Danny/Lisa</td>   
@@ -75,7 +75,7 @@ td {
 </table>
 
 <br>
-<img src="style/challenge.png" alt="challenge" style="width:500px;height:700;">
+<img src="style/challenge.png" alt="challenge" style="width:700px;height:700;">
 
 </body>
 </html>
