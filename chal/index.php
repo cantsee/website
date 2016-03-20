@@ -20,8 +20,8 @@ switch ($name) {
 		$x = "no new points";
 		break;
 	}
-
-file_put_contents("points.txt", $points);
+$newPointsString = convertToString($points);
+file_put_contents("points.txt", $newPointsString);
 
 $file = file_get_contents("points.txt");
 $points = convertToArray($file);
