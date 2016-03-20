@@ -11,6 +11,9 @@ $points = convertToArray($file);
 <body>
 
 <style>
+table, th, td {
+    border: 1px solid black;
+}
 body {
     background-image: url("style/background.jpg");
 }
@@ -27,7 +30,7 @@ body {
 	<input type="submit">
 </form>
 
-<table border="1" style="width:100%">
+<table>
   <tr>
     <td>Danny/Lisa</td>   
     <td><?php echo $points['danny_lisa']?></td>
