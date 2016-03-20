@@ -4,6 +4,7 @@
 include("functons.php");
 $file = file_get_contents("points.txt");
 $points = convertToArray($file);
+$points['michael_jeni'] += 1;
 
 ?>
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
@@ -24,7 +25,7 @@ body {
 	Select Name: <br>
 <select name="Users">
   <option value="danny_lisa">Danny/Lisa</option>
-  <option value="mike_jeni">Mike/Jeni</option>
+  <option value="michael_jeni">Mike/Jeni</option>
   <option value="hanah_jon">Hanah/Jon</option>
 </select>
 	Enter Points:
@@ -43,7 +44,7 @@ body {
   </tr>
   <tr>
     <td>Mike/Jeni</td>   
-    <td><?php echo $points['mike_jeni']?></td>
+    <td><?php echo $points['michael_jeni']?></td>
   </tr>
 </table>
 
