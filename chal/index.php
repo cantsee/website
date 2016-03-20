@@ -50,8 +50,8 @@ td {
 	<p1>Select Name: <br> </p1>
 <select name="Users">
   <option value="danny_lisa">Danny/Lisa</option>
-  <option value="michael_jeni">Mike/Jeni</option>
   <option value="hanah_jon">Hanah/Jon</option>
+  <option value="michael_jeni">Mike/Jeni</option>
 </select>
 	<p1>Enter Points: <p1>
 	<input type="number" name="points">
