@@ -42,6 +42,9 @@ table, th, td {
 p1 {
     color: white;
 }
+td {
+    font-size:: 25;
+}
 </style>
 <form action="index.php" method="post">
 	<p1>Select Name: <br> </p1>
@@ -57,7 +60,7 @@ p1 {
 
 <table>
   <tr>
-    <td><font size="20">Danny/Lisa</font></td>   
+    <t>Danny/Lisa</td>   
     <td><?php echo $points['danny_lisa']?></td>
   </tr>
   <tr>
