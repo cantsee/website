@@ -10,7 +10,6 @@ $points = convertToArray($file);
 switch ($name) {
 	case 'danny_lisa':
 		$points['danny_lisa'] += $newPoints;
-		var_dump($points);
 		break;
 	case 'hanah_jon':
 		$points['hanah_jon'] += $newPoints;
@@ -18,6 +17,7 @@ switch ($name) {
 	case 'michael_jeni':
 		$points['michael_jeni'] += $newPoints;
 	default:
+		echo "no new points";
 		$x = "no new points";
 		break;
 	}
