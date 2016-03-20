@@ -4,7 +4,7 @@
 include("functons.php");
 $file = file_get_contents("points.txt");
 $points = convertToArray($file);
-var_dump($points);
+
 ?>
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
 </head>
@@ -27,18 +27,18 @@ body {
 	<input type="submit">
 </form>
 
-<table style="width:100%">
+<table>
   <tr>
     <td>Danny/Lisa</td>   
     <td><?php echo $points['danny_lisa']?></td>
   </tr>
   <tr>
     <td>Hanah/Jon</td>   
-    <td><?php $points->hanah_jon?></td>
+    <td><?php echo $points->hanah_jon?></td>
   </tr>
   <tr>
     <td>Mike/Jeni</td>   
-    <td><?php $points->mike_jeni?></td>
+    <td><?php echo $points->mike_jeni?></td>
   </tr>
 </table>
 
