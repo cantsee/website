@@ -3,7 +3,7 @@
 <?php
 include("functons.php");
 $name = $_POST['Users'];
-$newPoints = $_post['points'];
+$newPoints = $_POST['points'];
 var_dump($newPoints);
 $file = file_get_contents("points.txt");
 $points = convertToArray($file);
