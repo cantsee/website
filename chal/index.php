@@ -37,7 +37,7 @@ table, th, td {
     border: 1px solid white;
     color: white;
     width: 400;
-    font: 30;
+    font: 60;
 }
 p1 {
     color: white;
