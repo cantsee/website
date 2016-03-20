@@ -31,15 +31,18 @@ $points = convertToArray($file);
 ?>
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
 </head>
-<body style="background-color:navy color: white;">
+<body style="background-color:navy;">
 <style>
 table, th, td {
     border: 1px solid white;
     color: white;
 }
+h1 {
+    color: white;
+}
 </style>
 <form action="index.php" method="post">
-	Select Name: <br>
+	<h1>Select Name: <br> </h1>
 <select name="Users">
   <option value="danny_lisa">Danny/Lisa</option>
   <option value="michael_jeni">Mike/Jeni</option>
