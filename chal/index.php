@@ -51,7 +51,7 @@ body {
   <option value="hanah_jon">Hanah/Jon</option>
 </select>
 	Enter Points:
-	<input type="text" name="points">
+	<input type="number" name="points">
 	<input type="submit">
 </form>
 
