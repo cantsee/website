@@ -72,7 +72,7 @@ td {
     <td><?php echo $points['michael_jeni']?></td>
   </tr>
 </table>
-<img src="challenge.png" alt="challenge" style="width:1004px;height:228px;">
+<img src="style/challenge.png" alt="challenge" style="width:1004px;height:228px;">
 
 </body>
 </html>
