@@ -28,6 +28,7 @@ $edit = file_put_contents("points.txt", $newPointsString);
 $file = file_get_contents("points.txt");
 $points = convertToArray($file);
 $_POST['points'] = 0;
+$newPoints = $_POST['points'];
 
 ?>
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
