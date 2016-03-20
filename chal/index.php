@@ -10,6 +10,7 @@ $points = convertToArray($file);
 switch ($name) {
 	case 'danny_lisa':
 		$points['danny_lisa'] += $newPoints;
+		var_dump($points);
 		break;
 	case 'hanah_jon':
 		$points['hanah_jon'] += $newPoints;
