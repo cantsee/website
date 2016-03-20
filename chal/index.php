@@ -4,7 +4,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "cmip23wl";
-$conn = new mysql_connect($servername, $username, $password);
+$conn = mysql_connect($servername, $username, $password);
 var_dump($conn);
 
 ?>
