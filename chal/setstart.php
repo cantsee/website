@@ -1,4 +1,5 @@
 <?php
+include("functions.php");
 	$currentStateInfo['michael_jeni'] = 0;
 	$currentStateInfo['hanah_jon'] = 0;
 	$currentStateInfo['danny_lisa'] = 0;
