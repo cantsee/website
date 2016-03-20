@@ -17,7 +17,7 @@ switch ($name) {
 	case 'michael_jeni':
 		$points['michael_jeni'] += $newPoints;
 	default:
-		echo "no new points";
+		//echo "no new points";
 		$x = "no new points";
 		break;
 	}
