@@ -36,6 +36,7 @@ $points = convertToArray($file);
 table, th, td {
     border: 1px solid white;
     color: white;
+    width: 400;
 }
 p1 {
     color: white;
@@ -48,7 +49,7 @@ p1 {
   <option value="michael_jeni">Mike/Jeni</option>
   <option value="hanah_jon">Hanah/Jon</option>
 </select>
-	Enter Points:
+	<p1>Enter Points: <p1>
 	<input type="number" name="points">
 	<input type="submit">
 </form>
