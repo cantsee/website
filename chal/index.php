@@ -1,3 +1,5 @@
+<html>
+<head>
 <?php
 $servername = "localhost";
 $username = "root";
@@ -9,11 +11,10 @@ if ($conn->connect_error) {
 } 
 echo "Connected successfully";
 ?>
-<html>
-<head>
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
 </head>
 <body>
+
 <style>
 body {
     background-image: url("style/background.jpg");
