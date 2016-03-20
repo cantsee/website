@@ -31,16 +31,10 @@ $points = convertToArray($file);
 ?>
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
 </head>
-<body>
+<body style="background-color:maroon;">
 <style>
 table, th, td {
     border: 1px solid black;
-}
-</style>
-
-<style>
-body {
-    background-image: url("style/background.jpg");
 }
 </style>
 <form action="index.php" method="post">
