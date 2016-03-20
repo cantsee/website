@@ -4,6 +4,7 @@
 include("functons.php");
 $file = file_get_contents("points.txt");
 $points = convertToArray($file);
+var_dump($points);
 ?>
 <img src="style/banner.gif" alt="banner" style="width:1004px;height:228px;">
 </head>
@@ -32,11 +33,11 @@ body {
     <td><?php $points->danny_lisa?></td>
   </tr>
   <tr>
-    <td>Danny/Lisa</td>   
+    <td>Hanah/Jon</td>   
     <td><?php $points->hanah_jon?></td>
   </tr>
   <tr>
-    <td>Danny/Lisa</td>   
+    <td>Mike/Jeni</td>   
     <td><?php $points->mike_jeni?></td>
   </tr>
 </table>
