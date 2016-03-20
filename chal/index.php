@@ -23,7 +23,7 @@ switch ($name) {
 	}
 $newPointsString = convertToString($points);
 var_dump($newPointsString);
-file_put_contents("points.txt", $newPointsString);
+$edit = file_put_contents("points.txt", $newPointsString);
 
 $file = file_get_contents("points.txt");
 $points = convertToArray($file);
